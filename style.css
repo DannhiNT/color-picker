@@ -11,9 +11,11 @@
 
 body {
   font-family: Poppins, 'Arial';
-  font-size: 50px;
+  font-size: 40px;
   line-height: 1.5;
   background-color: rgb(255, 255, 255);
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 ul {
@@ -47,6 +49,13 @@ nav {
   background-color: aliceblue;
   height: 80px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 nav a {
@@ -58,6 +67,8 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
+  column-gap: 100px;
 }
 
 .nav-links {
@@ -72,16 +83,18 @@ nav a {
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 .container h2 {
   background: aliceblue;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   padding: 20px;
   border-radius: 20px;
   margin-bottom: 30px;
   font-weight: 600;
   font-size: 70px;
+  border: 2px solid black;
 }
 
 .color {
@@ -92,7 +105,7 @@ nav a {
 
 /* ELEMENT STYLING */
 
-.btn-hero {
+.btn-color {
   text-transform: capitalize;
   background-color: transparent;
   font-weight: 700;
@@ -104,7 +117,7 @@ nav a {
   border-radius: 13px;
 }
 
-.btn-hero:hover {
+.btn-color:hover {
   background-color: black;
   color: white;
 }
