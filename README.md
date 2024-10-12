@@ -1,3 +1,3 @@
-#color picker project
+# COLOR PICKER PROJECT
 
-Basic color picker to randomly generate simple color or hex color.
+Basic color picker to randomly generate simple colors and hex colors using HTML, CSS, JavaScript.
